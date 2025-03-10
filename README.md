@@ -1,5 +1,7 @@
 The `price-alert.py` script checks the price of a specified cryptocurrency pair and sends a notification via Pushover if the price crosses predefined thresholds.
 
+SET UP:
+
 1. **Set up your `.env` file**: Create a `.env` file in the same directory as `price-alert.py` with your Pushover credentials (you will need Pushover app installed on your phone):
    ```
    PUSHOVER_TOKEN=your_token
